@@ -1,0 +1,25 @@
+------ lista de productos ------
+
+Producto: Guitarra criolla 
+Marca: Disbyte
+Precio: $5499
+
+Producto: Guitarra Electrica Gio Grx40
+Marca: Ibanez
+Precio: $32000
+
+Producto: Amplificador MG15CFX 220V
+Marca: Marshall 
+Precio: $26300
+
+Producto: Amplificador VT40X  
+Marca: VOX
+Precio: $35800
+
+Producto: Transportador Cejilla Capo
+Marca: Simsol
+Precio: $860
+
+Producto: Organo Teclado Ctk3400
+Marca: Casio
+Precio: $26300

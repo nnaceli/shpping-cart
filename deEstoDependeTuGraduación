@@ -1,0 +1,21 @@
+
+//consultar productos añadidos al carrito
+
+$sqlCarrito = "SELECT * 
+		FROM productos INNER JOIN carrito on 
+		productos.id_producto = carrito.id_producto WHERE pedido = 1";
+
+$select = $connection->query($sqlCarrito);
+$registro = $select->fetch_assoc();
+
+while($registro=mysqli_fetch_assoc($select)){
+
+	echo $registro['nombre'];
+
+	echo '<br>';
+
+	echo $registro['precio'];
+
+	echo '<br>';
+	echo '<br>';
+}
